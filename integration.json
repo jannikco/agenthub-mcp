@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "a6d4581671fa5bcfd5a83e79a54329c852348113117668a7723e5130cc615f39",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://raw.githubusercontent.com/GoHighLevel/highlevel-api-docs/main/apps/contacts.json"
+  ],
+  "id": "agenthub-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AgentHub MCP setup and connection checker",
+  "description": "Generate AgentHub MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agenthub",
+  "appName": "AgentHub",
+  "providerDocs": "https://raw.githubusercontent.com/GoHighLevel/highlevel-api-docs/main/apps/contacts.json",
+  "providerWebsite": "https://agenthub.us/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken",
+    "tenantRequired": false,
+    "accountParameterNames": [
+      "location_id"
+    ]
+  },
+  "attributionSlug": "github-agenthub-mcp"
+}
