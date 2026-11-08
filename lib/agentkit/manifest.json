@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agenthub",
+      "description": "Connect AI agents to AgentHub using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agenthub/SKILL.md": "67e137ff5319330798d97db8c249bc47566623413444de29da44b4dd77217b6d"
+  }
+}
